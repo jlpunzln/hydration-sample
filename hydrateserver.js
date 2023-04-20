@@ -21,7 +21,7 @@ server.get('/', (req, res) => {
         <script type="module" src="/client.js"></script>
       </head>
       <body>
-        <p> The number will increase click</p>
+        <p> The number will increase per click</p>
         <div id="app">${html}</div>
       </body>
     </html>
